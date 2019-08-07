@@ -26,4 +26,4 @@ handlers:
 
 libraries:
   - name: django
-    version: "2.2.3"
+    version: "1.4"
