@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
+class AppSettings(object):
+    GoogleCloudProject = os.getenv('GOOGLE_CLOUD_PROJECT')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +28,7 @@ SECRET_KEY = 'bcpf5bgv=dect$*4dv@e7n7&&nz$m1=$2)03=abenspn9&2m&y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
