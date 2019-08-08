@@ -8,6 +8,7 @@
     
     <link rel="stylesheet" type="text/css" href="{% static 'css/home.css'%}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/common.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common_cate.css' %}">
 
 </head>
 <body>
@@ -68,7 +69,7 @@
                                                  Home</a> <!--홈화면으로 href-->
                                         </li>
                                         <li class="left_nav_item">
-                                            <a href="cate_trend.html">Category</a> <!--카테고리 화면으로 href-->
+                                            <a href="{% url 'cate_trend' %}">Category</a> <!--카테고리 화면으로 href-->
                                         </li>
                                         <li class="left_nav_item">
                                             <a href="schedule.html">Schedule</a> <!--스케쥴 화면으로 href-->

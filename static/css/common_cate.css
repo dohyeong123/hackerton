@@ -1,9 +1,6 @@
-
-
 /* 오른쪽 전체 파트 */
 /* .right_part{
     display: flex;
-
     flex-direction: column;
     height: calc(100%-110px);
     width: 100%;
@@ -52,4 +49,3 @@
     background-color: #3c65be;
     color: #fff;
 }
-
